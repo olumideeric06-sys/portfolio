@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olublaze | Social Media Manager</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: #333;
+      background-color: #f8f9fa;
+    }
+
+    /* HERO / HEADER */
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      background: linear-gradient(to right, #007bff, #00bfff);
+      color: white;
+      padding: 50px 20px;
+      text-align: left;
+    }
+
+    header .hero-text {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin: 10px 0;
+      font-size: 1.2rem;
+    }
+
+    header a {
+      background: white;
+      color: #007bff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 15px;
+    }
+
+    header .hero-img {
+      flex: 1;
+      text-align: center;
+      min-width: 200px;
+    }
+
+    header .hero-img img {
+      max-width: 250px;
+      border-radius: 50%;
+      border: 4px solid white;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #007bff;
+    }
+
+    /* ABOUT ME */
+    .about-container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .about-container img {
+      max-width: 200px;
+      border-radius: 10px;
+    }
+
+    .about-container p {
+      flex: 1;
+    }
+
+    /* SERVICES & PORTFOLIO */
+    .services, .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #007bff;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header / Hero -->
+  <header>
+    <div class="hero-text">
+      <h1>Olumide Adeyemi Eric</h1>
+      <p>it's pronouced o-lu-mi-de, A-de-ye-mi then Eric</p>
+      <p>Social Media Manager | Helping Brands Grow Online</p>
+      <a href="#contact">Work With Me</a>
+    </div>
+    <div class="hero-img">
+      <!-- Replace with your real profile picture -->
+      <img src="images/my pic.jpg" alt="olumide eric">
+    </div>
+  </header>
+
+  <!-- About Me -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <!-- Replace with your real about-me image -->
+      <img src="images/FB_IMG_17165404995810390.jpg" alt="About Me Image">
+      <p>Hello! I’m Olumide Adeyemi Eric, a social media manager passionate about creating content that engages, builds communities, and drives results. 
+      I help brands tell their stories through strategy, creativity, and data-driven campaigns.</p> <br>
+      <p>I have 2 (two) years experience as a social media manager and i have had the grace to work with brands like The Science Thereof, Elopenet consulting and KFM Logistics</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>My Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Content Creation</h3>
+        <p>Captivating posts, reels, and stories tailored to your brand voice.</p>
+      </div>
+      <div class="card">
+        <h3>Social Media Strategy</h3>
+        <p>Data-driven growth strategies to boost reach and engagement.</p>
+      </div>
+      <div class="card">
+        <h3>Ads Management</h3>
+        <p>Targeted ad campaigns that convert followers into customers.</p>
+      </div>
+      <div class="card">
+        <h3>Analytics & Reporting</h3>
+        <p>Track results with clear, actionable reports.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <h2>My Work</h2>
+    <div class="portfolio">
+      <div class="card">
+        <img src="images/images.jpeg" alt="Project">
+        <p>Campaign: Increased engagement by 200% in 3 months.</p>
+      </div>
+      <div class="card">
+        <img src="images/eloponet flyer img.jpg" alt="Project">
+        <p>Client: Boosted follower count from 1k to 10k.</p>
+      </div>
+      <div class="card">
+        <img src="images/digital-advertising-analytics-video-ads-600nw-2455297227.webp" alt="Project">
+        <p>Ad Campaign: Achieved 5x return on ad spend.</p>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>
+    <i class="fa-solid fa-envelope" style="color:#00bfff; margin-right:8px;"></i>
+    <a href="mailto:olumideeric06@gmail.com">olumideeric06@gmail.com</a>
+  </p>
+  <p>
+    <i class="fa-brands fa-whatsapp" style="color:#00bfff; margin-right:8px;"></i>
+    <a href="https://wa.me/2348146082697" target="_blank">Chat with me</a>
+  </p>
+  <p>
+    <i class="fa-brands fa-instagram" style="color:#00bfff; margin-right:8px;"></i>
+    <a href="https://instagram.com/olu_realest" target="_blank">olu_realest</a>
+  </p>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 OluRealest | Social Media Manager</p>
+  </footer>
+
+</body>
+</html>
